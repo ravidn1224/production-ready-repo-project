@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r microservices/service1/requirements.txt
-          pip install -r microservices/service2/requirements.txt
+          pip install --no-cache-dir -r microservices/service1/requirements.txt
+          pip install --no-cache-dir -r microservices/service2/requirements.txt
           pip install flake8
           pip install pytest
 
