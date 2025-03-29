@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PYTHONPATH=$(pwd)
+
 echo "Running tests for Service 1..."
 pytest microservices/service1/tests/
 
