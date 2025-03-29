@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 # install dependencies
 echo "Installing all dependencies from requirement.txt..."

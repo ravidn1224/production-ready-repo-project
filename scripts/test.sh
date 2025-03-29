@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 echo "Running tests for Service 1..."
 pytest microservices/service1/tests/
