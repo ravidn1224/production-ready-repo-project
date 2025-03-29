@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  run-python:
+  ci-job:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,7 +30,8 @@ jobs:
           flake8 microservices/service1
           flake8 microservices/service2
 
-     - name: Run tests with the script test.sh
-       run: |
-         chmod +x scripts/test.sh
-         ./scripts/test.sh
+      - name: Run tests with the script test.sh
+        run: |
+          chmod +x scripts/test.sh
+          ./scripts/test.sh
+
