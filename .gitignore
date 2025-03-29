@@ -1,0 +1,16 @@
+# Ignore environment files
+.env
+venv/
+
+# Ignore secrets
+secrets.json
+*.key
+*.pem
+
+# Ignore build and system files
+__pycache__/
+node_modules/
+pytest_cache/
+
+# Ignore logs
+*.log
